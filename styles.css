@@ -1,0 +1,99 @@
+:root{
+    --bg-clr : #333;
+    --clr : white;
+    --div-clr: #006699;
+    --border: black;
+    --hover: #ffffff33;
+    --fw: bold;
+    --ff: 'PT Sans', sans-serif;
+}
+
+body{
+    background-color:var(--bg-clr) ;
+    color: var(--clr);
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--ff);
+}
+
+.container{
+    background-color: var(--div-clr);
+    padding: 3rem;
+    border-radius: 1rem;
+    border: 2px solid var(--border);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form{
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 1rem;
+    column-gap: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    margin: 0;
+    text-align: center;
+}
+
+label{
+    font-weight:var(--fw) ;
+}
+
+.character-amount-container{
+    display: flex;
+    align-items: center;
+}
+
+.number-input{
+    width: 2rem;
+}
+
+.password-display{
+    background-color: var(--clr);
+    color: var(--border);
+    padding: 1rem;
+    border: 1px solid var(--bg-clr);
+    height: 2rem;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-break: break-all;
+    border-radius: 0.5rem;
+}
+
+.btn{
+    grid-column: span 2;
+    background-color: transparent;
+    border: 2px solid var(--clr);
+    color: var(--clr);
+    padding:0.5rem 1rem ;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+
+.btn:hover{
+    background-color: var(--hover);
+}
+
+@media (max-width: 660px){
+    body{
+        width: 100%;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+    }
+    .container{
+        width: 70vw;
+    }
+    
+}
