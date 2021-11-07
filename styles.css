@@ -2,9 +2,11 @@
     box-sizing: border-box;
 }
 :root{
-    --bg-clr : #333;
+    /* --bg-clr : #333; */
+    --bg-clr : #292929;
     --clr : white;
-    --div-clr: #006699;
+    /* --div-clr: #006699; */
+    --div-clr: #6A6D75;
     --border: black;
     --hover: #ffffff33;
     
@@ -12,8 +14,10 @@
     --ff: 'PT Sans', sans-serif;
     
     --bg-clr-light: white;
+    /* --bg-clr-light: #FFE1E9; */
     --clr-light: white;
     --div-clr-light : orangered;
+    /* --div-clr-light: #E98D7D; */
     --border-light: #333;
     --hover-light: rgb(233, 119, 78);
 }
