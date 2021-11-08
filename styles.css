@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 :root{
-    /* --bg-clr : #333; */
+    --bg-clr : #333;
     --bg-clr : #292929;
     --clr : white;
     /* --div-clr: #006699; */
@@ -43,7 +43,8 @@ body{
     transition:0.5s linear;
 }
 body.dark{
-    background-color:var(--bg-clr);
+    /* background-color:var(--bg-clr); */
+    background: linear-gradient(180deg, rgba(0,0,0,1),rgba(0,0,0,0.8));
     --background-clr: #292929;
     --checkbox-background: linear-gradient(0deg, #333, #000);
     --checked-background:  #6dd1ff;
@@ -123,11 +124,21 @@ body.dark .container .password-display{
     color: var(--clr);
     padding:0.5rem 1rem ;
     cursor: pointer;
-    border-radius: 1rem;
+    box-shadow: 0 0 10px var(--clr),
+                0 0 20px var(--clr);
+    padding: 1em 0;
+    /* border-radius: 1rem; */
 }
 
 .btn:hover{
-    background-color: var(--hover);
+    /* background-color: var(--hover); */
+    background-color: var(--checked-background);
+    box-shadow: 0 0 10px var(--checked-background),
+                0 0 30px var(--checked-background),
+                0 0 60px var(--checked-background),
+                0 0 80px var(--checked-background);
+
+    
 }
 body.dark .container .btn{
     border: 2px solid var(--clr);
@@ -139,7 +150,6 @@ body.dark .container .btn{
     position: absolute;
     top: 0.5rem;
     right: 2rem;
-   
 }
 .label{
     width: 60px;
@@ -154,6 +164,9 @@ body.dark .container .btn{
     top: 1em;
     right: 2em;
     cursor: pointer;
+}
+body.dark .label{
+    border: 1px solid white;
 }
 .checkbox{
     opacity: 0;
@@ -248,13 +261,21 @@ body.dark .container .btn{
 
 
 @media (max-width: 760px){
+    .main-container{
+        margin: 2em 2em;
+        padding: 0;
+        height: 100vh;
+        width: 90vw;       
+        display: inline-block;
+    }
     .dark_mode{
-        right: 35%;
+        right: 40%;
     }
     .container{
-        width: 70vw;
+        width: 80vw;
         position: absolute;
         top: 10%;
+        align-self: center;
     }
     .form{
         column-gap: 1rem;

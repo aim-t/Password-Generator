@@ -15,47 +15,48 @@
 </head>
 
 <body>
-    <div class="dark_mode">
-        <input class="checkbox" type="checkbox" id="checkbox">
-        <label for="checkbox" class="label">
-         
-          <i class="fas fa-moon"></i>
-          <i class="fas fa-sun"></i>
-          <div class="ball"></div>
-
-        </label>
-    </div>
-
-    <div class="container">
-        <h1 class="title">Password Generator</h1>
-        <h3 class="password-display" id="passwordDisplay">password</h3>
-        <form id="passwordGeneratorForm" class="form">
-            <label for="characterAmountNumber">Number Of Characters</label>
-            <div class="character-amount-container">
-                <input type="range" min="1" max="50" id="characterAmountRange" value="10"> 
-                <input type="number" class="number-input" min="1" max="50" id="characterAmountNumber" value="10">
-            </div>    
-        
-            <label for="includeUppercase">Include Uppercase</label>
-            <div class="checkbox-container checkbox-one">
-                <input type="checkbox" id="includeUppercase" class="checkbox-design">
-            </div>
-        
-            <label for="includeNumbers">Include Numbers</label>
-            <div class="checkbox-container checkbox-two">            
-                <input type="checkbox" id="includeNumbers" class="checkbox-design">
-            </div>
-
-            <label for="includeSymbols">Include Symbols</label>
-            <div class="checkbox-container checkbox-three">
-                <input type="checkbox" id="includeSymbols" class="checkbox-design">
-            </div>
+    <div class="main-container">
+        <div class="dark_mode">
+            <input class="checkbox" type="checkbox" id="checkbox">
+            <label for="checkbox" class="label">
             
-            <button type="submit" class="btn">
-                Generate Password
-            </button>
-        </form>
-    </div>
+                <i class="fas fa-moon"></i>
+                <i class="fas fa-sun"></i>
+                <div class="ball"></div>
 
+            </label>
+        </div>
+
+        <div class="container">
+            <h1 class="title">Password Generator</h1>
+            <h3 class="password-display" id="passwordDisplay">password</h3>
+            <form id="passwordGeneratorForm" class="form">
+                <label for="characterAmountNumber">Number Of Characters</label>
+                <div class="character-amount-container">
+                    <input type="range" min="1" max="50" id="characterAmountRange" value="10"> 
+                    <input type="number" class="number-input" min="1" max="50" id="characterAmountNumber" value="10">
+                </div>    
+            
+                <label for="includeUppercase">Include Uppercase</label>
+                <div class="checkbox-container checkbox-one">
+                    <input type="checkbox" id="includeUppercase" class="checkbox-design">
+                </div>
+            
+                <label for="includeNumbers">Include Numbers</label>
+                <div class="checkbox-container checkbox-two">            
+                    <input type="checkbox" id="includeNumbers" class="checkbox-design">
+                </div>
+
+                <label for="includeSymbols">Include Symbols</label>
+                <div class="checkbox-container checkbox-three">
+                    <input type="checkbox" id="includeSymbols" class="checkbox-design">
+                </div>
+                
+                <button type="submit" class="btn">
+                    Generate Password
+                </button>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
