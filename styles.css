@@ -223,7 +223,7 @@ body.dark .label{
 }
    
 .checkbox-design[type="checkbox"]{
-    position: realtive;
+    position: relative;
     width:4em;
     height:2em;
     -webkit-appearance: none;
