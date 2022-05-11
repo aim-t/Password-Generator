@@ -8,7 +8,7 @@ Password Generator with characters ranging from 1-50 characters including number
 - VS Code
 ### Motivation 
 This project was created to understand the concept of generating random characters, and to use that in a practical scenario. 
-#### Challenges 
+### Challenges 
 This project is a [follow-along](https://www.youtube.com/watch?v=iKo9pDKKHnc&t=2s) tutorial. Therefore, there is not enough focus on individual learning and brainstorming, unlike creating a personal project from scratch. 
 ### Working
 The main chunk of this project consists of the functionalities for password generation. However, there is a good amount if styling involved too. 
