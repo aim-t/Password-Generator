@@ -19,7 +19,7 @@ The main chunk of this project consists of the functionalities for password gene
 The main styling is done for changing themes, and checkboxes. 
 - The toggle for light/dark mode is achieved using checkboxes using the `transition` property
 - The checkboxes for choosing characters are styled mostly using `box-shadow` and `transition` 
-### Future Work 
+### Future Plans for this Project 
 - The project is partially responsive, and needs improvement. 
 - The design also needs to look much cleaner. Using a CSS framework would be a better option for clean UI. 
 
