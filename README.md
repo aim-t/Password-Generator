@@ -1,29 +1,51 @@
-# Password-Generator
+# Password Generator
+
+### [Live Site](https://generatesecurepassword.netlify.app/)
+
 ## Description 
-Password Generator with characters ranging from 1-50 characters including numbers, uppercase and lowercase alphabets, as well as symbols from the ASCII codes. 
-### Technologies Used:
+A simple web app for generating secure passwords, built with HTML, CSS, and JavaScript with Bootsrap for responsive layout. The application allows users to generate passwords with varying lengths ranging from 1 to 50 characters. The generated passwords include numbers, uppercase and lowercase alphabets, as well as symbols from the ASCII codes.
+
+## Preview 
+
+#### Light Mode
+![image](https://github.com/aiman2022skipq/Password-Generator/assets/111865753/62b9e97d-5282-47d9-83aa-8c90772c2d57)
+
+#### Dark Mode
+![image](https://github.com/aiman2022skipq/Password-Generator/assets/111865753/9ed8e368-b231-4152-8871-f7618ebacdb0)
+
+## Features
+
+- Password generation with customizable length.
+- Passwords include numbers, uppercase and lowercase alphabets, and symbols.
+- Light and dark mode theme switcher.
+- Responsive layout using Bootstrap.
+- Custom styling for checkboxes.
+
+## Getting Started
+
+To run the application locally, follow these steps:
+
+1. Clone the repository: `git clone https://github.com/your-username/password-generator.git`
+2. Open the index.html file in your preferred web browser.
+
+## Usage
+
+1. Adjust the length of the password using the provided range input.
+2. Check the character options you want to include in the password (numbers, uppercase, lowercase, symbols).
+3. Click the "Generate Password" button to generate a random password.
+4. Use the password for your desired purpose.
+5. Toggle between light and dark mode using the theme switcher.
+
+## Technologies Used
+
 - HTML
 - CSS
 - JavaScript
-- VS Code
-### Motivation 
-This project was created to understand the concept of generating random characters, and to use that in a practical scenario. 
-### Challenges 
-This project is a [follow-along](https://www.youtube.com/watch?v=iKo9pDKKHnc&t=2s) tutorial. Therefore, there is not enough focus on individual learning and brainstorming, unlike creating a personal project from scratch. 
-### Working
-The main chunk of this project consists of the functionalities for password generation. However, there is a good amount if styling involved too. 
-#### Functionality using JavaScript
-- The main JS code generates passwords by using a function for random generation of ASCII codes. These codes are translated into uppercase and lowercase letters, with symbols and numbers, and then joined using `.join('')` to result in a string
-- Js is used for toggling light/dark mode
-#### Styling using CSS 
-The main styling is done for changing themes, and checkboxes. 
-- The toggle for light/dark mode is achieved using custom checkboxes using the `transition` property
-- The checkboxes for choosing characters are styled mostly using `box-shadow` and `transition` 
+- Bootsrap
 
+## Acknowledgements
 
+- The ASCII code reference for generating symbols.
+- Bootstrap for responsive layout.
 
-
-
-
-
-
+Enjoy generating secure passwords with ease!
