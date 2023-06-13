@@ -3,7 +3,7 @@
 ### [Live Site](https://generatesecurepassword.netlify.app/)
 
 ## Description 
-A simple web app for generating secure passwords, built with HTML, CSS, and JavaScript with Bootsrap for responsive layout. The application allows users to generate passwords with varying lengths ranging from 1 to 50 characters. The generated passwords include numbers, uppercase and lowercase alphabets, as well as symbols from the ASCII codes.
+A simple web app for generating secure passwords, built with HTML, CSS, and JavaScript with Bootstrap for responsive layout. The application allows users to generate passwords with varying lengths ranging from 1 to 50 characters. The generated passwords include numbers, uppercase and lowercase alphabets, as well as symbols from the ASCII codes.
 
 ## Preview 
 
@@ -41,7 +41,7 @@ To run the application locally, follow these steps:
 - HTML
 - CSS
 - JavaScript
-- Bootsrap
+- Bootstrap
 
 ## Acknowledgements
 
